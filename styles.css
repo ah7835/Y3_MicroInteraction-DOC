@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #191919;
+}
+h1,h2,h3,p,li{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+h1,h2,h3 {
+    color: #EFEFEF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    letter-spacing: 1px;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+h3 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+p, li{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #8D8D8D;
+    letter-spacing: -0.2px;
+}
+p{
+    margin-bottom: 16px;
+}
+
+hr {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+
+    border: 0.5px solid #8D8D8D;
+}
+
+.section {
+    margin-bottom: 80px;
+}
+.Smallsection {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.InteractionSection {
+    margin-top: 100px;
+}
+
+img {
+    max-width:100%;
+}
+video {
+    width: 80%;
+    height: 80%;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 24px;
+}
+
+
+/* ----------Top section----------  */
+.title, .title h1, .title p {
+    background-color: #0376F2;
+}
+.title {
+    text-align:center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.title h1 {
+    margin: 0;
+    font-size:4rem;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+.title p {
+    font-size:1.5rem;
+    color: #EFEFEF;
+}
+
+
+
+/*---------- Project Info----------*/
+.projectinfo {
+    display: flex;
+    justify-content: center;
+}
+.projectinfo span {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.projectinfo h3 {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.projectinfo p {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+
+/* Process Button */
+.globalinfo .process_button {
+    display: flex;
+    justify-content: center;
+}
+.globalinfo a {
+    margin-top: 56px;
+
+    text-decoration: none;
+    padding: 8px;
+    
+    font-size: 1.5rem;
+    font-family: 'Anton', sans-serif;
+    color: #EFEFEF;
+    padding: 4px 12px 4px 12px;
+    border: 1px solid #EFEFEF;
+}
+.globalinfo a:hover{
+    background-color: #0376F2;
+    transition: 0.1s ease-out;
+}
+.globalinfo a:active{
+    background-color: #EFEFEF;
+    color: #0376F2;
+    border: 1px solid #0376F2;
+}
+
+
+/*---------- Purpose----------*/
+.Goal_Purpose{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.purpose{
+    margin-bottom: 0;
+}
+
+
+/*---------- Moodboard ----------*/
+.moodboard p, .styleboard p{
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 40px;
+}
+
+
+/*---------- Interaction SLide ----------*/
+.Interactions, .Interactions h1{
+    margin-top: 120px;
+    margin-bottom: 60px;
+    background-color: #8D8D8D;
+}
+.Interactions h1{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    color: #191919;
+
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+/*---------- Basic Buttons ----------*/
+.threeButtons {
+    display: flex;
+    justify-content: center;
+}
+.threeButtons video{
+    margin: 0;
+    width: 30%;
+    height: 30%;
+}
+
+
+/*---------- flex ----------*/
+.BothSliders{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.Radio_Check{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.Progress_Wait{
+    display: flex;
+    padding-bottom: 160px;
+}
+
+/*---------- Thanks ----------*/
+
+.Thanks {
+    text-align:center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/*---------- footer ----------*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #8D8D8D;
+}
+footer p {
+    padding-top: 20px;
+    background-color: #8D8D8D;
+    color: #191919;
+}
+
+
+
+
+/*---------- Media Queries ----------*/
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+    }
+    h1,h2,h3,p,li{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    video {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .DoubleSlider {
+        margin-top: 100px;
+    }
+    .DoubleSlider video{
+        margin-top: -20px;
+    }
+
+    .multiselect{
+        padding-top: 100px;
+    }
+
+    .checkbox{
+        padding-top: 110px;
+    }
+    .checkbox video {
+        margin-top: -100px;
+    }
+    .radio1{
+        padding-top: 10px;
+    }
+
+    .tool1 {
+        margin-top: 80px;
+    }
+
+    .wait1 {
+        margin-top: 100px;
+    }
+
+    .Progress_Wait{
+        margin-bottom: 120px;
+    }
+
+@media only screen and (max-width: 934px){
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 1024px) {
+    h1,h2,h3,p,li{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    hr {
+        margin-left: 100px;
+        margin-right: 80px;
+    }
+    video{
+        height: 50%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .projectinfo {
+        flex-direction: column;
+        margin-left: 20px;
+
+    }
+
+    .Goal_Purpose {
+        display: block;
+    }
+
+    .threeButtons {
+        margin-left: 40px;
+        flex-direction: column;
+    }
+    .threeButtons video{
+        width: 90%;
+        height: 90%;
+    }
+
+    .slider1 video {
+        margin-top: 0;
+    }
+
+    .DoubleSlider {
+        padding-top: 40px;
+    }
+
+    .BothSliders{
+        padding-bottom: 0;
+    }
+
+    .multiselect{
+        margin-top: -60px;
+    }
+
+    .checkbox video {
+        margin-top: 0;
+    }
+
+    
+    .Toolbar {
+        padding-top: 40px
+    }
+
+    .progress video {
+        margin-top: 0;
+    }
+    .wait {
+        padding-top: 160px
+    }
+    .wait video {
+        margin-top: 0;
+    }
+
+    .BothSliders{
+        flex-wrap: wrap;
+    }
+    
+    .Radio_Checkbox_Tool{
+        margin-top: 60px;
+    }
+
+    .Radio_Check{
+        flex-wrap: wrap;
+    }
+    .Radio_Check video{
+        margin-top: 0;
+    }
+    .menu1{
+        margin-top: -20px;
+    }
+    .Toolbar {
+        margin-top: -120px;
+    }
+    .bigBUtton1{
+        margin-top: -30px;
+    }
+
+    .Progress_Wait{
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    .progress {
+        margin-top: -20px;
+    }
+    .wait {
+        margin-top: -180px;
+    }
+    
+}
+}
